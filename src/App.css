@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
 }
 
 .App-logo {
@@ -35,4 +38,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+span {
+  border: 1px solid black;
+  width: 100%;
+  text-align: start;
+  padding-left: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.label {
+  width: 250px;
+  border-right: "3px solid black";
+  font-weight: 600;
+}
+
+.blockAndTransaction {
+  border-right: 1px dashed gray;
+  padding-right: 15px;
+}
+
+.accountDetails {
+  padding-left: 15px;
+  text-align: start;
+}
+
+.accountInput {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.accountInput > label {
+  margin-bottom: 5px;
+}
+
+.accountInput > div {
+  margin-bottom: 15px;
 }
